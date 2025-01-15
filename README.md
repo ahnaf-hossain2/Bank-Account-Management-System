@@ -54,3 +54,8 @@ acc1.deposit(500);
 acc1.withdraw(200);
 acc1.transfer(300, acc2);
 acc1.showAccountDetails();
+
+### Installation
+    1. Clone the repository
+    '''bash
+    git clone https://github.com/YourUsername/BankAccountManagementSystem.git
