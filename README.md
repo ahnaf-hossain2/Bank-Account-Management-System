@@ -57,7 +57,7 @@ acc1.showAccountDetails();
 ```
 
 ## Installation and Running the Program
-    1. Clone the repository
+1. **Clone the repository**
     ```bash
     git clone https://github.com/YourUsername/BankAccountManagementSystem.git
 
