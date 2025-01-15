@@ -1,7 +1,7 @@
 # Bank Account Management System
 
 ## Overview
-A robust C++ implementation of a bank account management system that simulates basic banking operations. This system provides a foundation for handling account transactions and management in a secure and efficient manner.
+This project is a C++ program that simulates basic banking operations. It allows you to create and manage bank accounts, perform deposits, withdrawals, and transfers, and view account details. The system ensures secure and efficient handling of all transactions.
 
 ## Features
 - 🏦 Account Creation and Management
@@ -46,21 +46,57 @@ The `Account` class includes:
 ## Usage Example
 ```cpp
 // Create accounts
-Account acc1("John Doe", 1001, 1000.0, "Savings");
-Account acc2("Jane Smith", 1002, 2000.0, "Checking");
+Account account1( "MD. Ahnaf Hossain", 57370, 1000.00, "Savings" );
+Account account2( "Pulok Shahriar", 24567, 5000.00, "Savings" );
 
 // Perform operations
-acc1.deposit(500);
-acc1.withdraw(200);
-acc1.transfer(300, acc2);
-acc1.showAccountDetails();
+account1.deposit(4500);
+account1.withdraw(2000);
+account1.transferMoney(1000, account2);
+account1.showAccountDetails();
+account2.showAccountDetails();
 ```
 
 ## Installation and Running the Program
 1. **Clone the repository**
     ```bash
-    git clone https://github.com/YourUsername/BankAccountManagementSystem.git
+    git clone https://github.com/ahnaf-hossain2/Bank-Account-Management-System.git
+2. **Compile the code**
+    ```bash
+    g++ bank_account_system.cpp -o bank_system
+3. **Run the executable**
+    ```bash
+    ./bank_system
+
+## Requirements
+* C++ Compiler (GCC recommended)
+* Standard C++ Library
+
+## Contributing
+1. **Fork the repository**
+2. **Create your feature branch**
+3. **Commit your changes**
+4. **Push to the branch**
+5. **Open a Pull Request**
+
+## **Technical Details**
+* Language: C++
+* Implementation: Object-Oriented
+* Error Handling: Comprehensive
+* Data Validation: Implemented
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Author
+
+MD Ahnaf Hossain
+
+## **Acknowledgments**
+
+* Modern Banking Systems
+* Object-Oriented Design Principles
+* Secure Transaction Processing
+***
+⭐ Star this repository if you find it helpful!
