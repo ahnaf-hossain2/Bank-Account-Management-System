@@ -91,7 +91,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 👤 Author
 
-MD Ahnaf Hossain - [ahnaf-hossain2]([https://github.com/yourusername](https://github.com/ahnaf-hossain2))
+MD Ahnaf Hossain - [ahnaf-hossain2](https://github.com/ahnaf-hossain2)
 
 ## **🙏 Acknowledgments**
 
