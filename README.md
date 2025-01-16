@@ -89,14 +89,15 @@ account2.showAccountDetails();
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Author
+## 👤 Author
 
-MD Ahnaf Hossain
+MD Ahnaf Hossain - [ahnaf-hossain2]([https://github.com/yourusername](https://github.com/ahnaf-hossain2))
 
-## **Acknowledgments**
+## **🙏 Acknowledgments**
 
-* Modern Banking Systems
+* Inspired by Modern Banking Systems
 * Object-Oriented Design Principles
 * Secure Transaction Processing
+* Built as part of C++ learning journey
 ***
 ⭐ Star this repository if you find it helpful!
